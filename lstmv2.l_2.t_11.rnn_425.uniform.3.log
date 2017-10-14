@@ -1,0 +1,887 @@
+batch_size 250
+num_epochs 400
+num_nonz 3
+clip_gradient 4
+model lstmv2
+gpu 1
+max_grad_norm 5
+input_size 20
+num_layers 2
+dataset uniform
+lr_decay_startpoint 250
+lr 0.001
+num_unroll 11
+model_all lstmv2.l_2.t_11.rnn_425
+output_size 100
+rnn_size 425
+manualSeed 7614
+network have 4864650 parameters
+Train [1] Time 392.152 s-acc 0.0008 l-acc 0.4400 m-acc 0.1845 err 12.5813
+Valid [1] Time 21.865 s-acc 0.0042 l-acc 0.6501 m-acc 0.3566 err 10.8930
+saving model
+Train [2] Time 391.966 s-acc 0.0184 l-acc 0.7388 m-acc 0.4376 err 9.9458
+Valid [2] Time 21.909 s-acc 0.0312 l-acc 0.7856 m-acc 0.4824 err 9.4075
+saving model
+Train [3] Time 392.513 s-acc 0.0497 l-acc 0.8159 m-acc 0.5197 err 8.9839
+Valid [3] Time 21.872 s-acc 0.0760 l-acc 0.8500 m-acc 0.5629 err 8.4877
+saving model
+Train [4] Time 392.649 s-acc 0.1110 l-acc 0.8750 m-acc 0.5981 err 8.0790
+Valid [4] Time 21.904 s-acc 0.1378 l-acc 0.8918 m-acc 0.6192 err 7.8059
+saving model
+Train [5] Time 392.369 s-acc 0.1786 l-acc 0.9093 m-acc 0.6470 err 7.4796
+Valid [5] Time 21.942 s-acc 0.2150 l-acc 0.9215 m-acc 0.6691 err 7.2206
+saving model
+Train [6] Time 392.685 s-acc 0.2635 l-acc 0.9359 m-acc 0.6951 err 6.9166
+Valid [6] Time 21.842 s-acc 0.3141 l-acc 0.9471 m-acc 0.7208 err 6.6292
+saving model
+Train [7] Time 392.685 s-acc 0.3532 l-acc 0.9541 m-acc 0.7365 err 6.4394
+Valid [7] Time 21.849 s-acc 0.3897 l-acc 0.9599 m-acc 0.7525 err 6.2618
+saving model
+Train [8] Time 392.794 s-acc 0.4365 l-acc 0.9662 m-acc 0.7714 err 6.0430
+Valid [8] Time 21.979 s-acc 0.4630 l-acc 0.9687 m-acc 0.7819 err 5.9283
+saving model
+Train [9] Time 392.966 s-acc 0.5100 l-acc 0.9741 m-acc 0.8007 err 5.7188
+Valid [9] Time 22.018 s-acc 0.5515 l-acc 0.9773 m-acc 0.8177 err 5.5505
+saving model
+Train [10] Time 393.519 s-acc 0.5813 l-acc 0.9805 m-acc 0.8298 err 5.4061
+Valid [10] Time 21.883 s-acc 0.6079 l-acc 0.9833 m-acc 0.8419 err 5.2746
+saving model
+Train [11] Time 393.230 s-acc 0.6467 l-acc 0.9852 m-acc 0.8564 err 5.1244
+Valid [11] Time 22.011 s-acc 0.6746 l-acc 0.9872 m-acc 0.8684 err 4.9904
+saving model
+Train [12] Time 393.676 s-acc 0.7012 l-acc 0.9885 m-acc 0.8786 err 4.8849
+Valid [12] Time 21.944 s-acc 0.7055 l-acc 0.9888 m-acc 0.8812 err 4.8503
+saving model
+Train [13] Time 393.968 s-acc 0.7469 l-acc 0.9909 m-acc 0.8970 err 4.6840
+Valid [13] Time 21.882 s-acc 0.7759 l-acc 0.9922 m-acc 0.9089 err 4.5585
+saving model
+Train [14] Time 402.742 s-acc 0.7849 l-acc 0.9924 m-acc 0.9120 err 4.5152
+Valid [14] Time 21.994 s-acc 0.8043 l-acc 0.9932 m-acc 0.9196 err 4.4232
+saving model
+Train [15] Time 393.618 s-acc 0.8142 l-acc 0.9935 m-acc 0.9235 err 4.3811
+Valid [15] Time 21.881 s-acc 0.8378 l-acc 0.9942 m-acc 0.9326 err 4.2773
+saving model
+Train [16] Time 402.022 s-acc 0.8382 l-acc 0.9943 m-acc 0.9330 err 4.2655
+Valid [16] Time 21.885 s-acc 0.8372 l-acc 0.9944 m-acc 0.9334 err 4.2498
+Train [17] Time 400.892 s-acc 0.8551 l-acc 0.9948 m-acc 0.9397 err 4.1792
+Valid [17] Time 21.925 s-acc 0.8804 l-acc 0.9958 m-acc 0.9502 err 4.0595
+saving model
+Train [18] Time 393.479 s-acc 0.8699 l-acc 0.9953 m-acc 0.9455 err 4.1035
+Valid [18] Time 21.986 s-acc 0.8812 l-acc 0.9957 m-acc 0.9501 err 4.0514
+saving model
+Train [19] Time 393.792 s-acc 0.8823 l-acc 0.9956 m-acc 0.9505 err 4.0408
+Valid [19] Time 21.924 s-acc 0.8492 l-acc 0.9943 m-acc 0.9371 err 4.1725
+Train [20] Time 394.104 s-acc 0.8917 l-acc 0.9959 m-acc 0.9542 err 3.9859
+Valid [20] Time 21.997 s-acc 0.8853 l-acc 0.9961 m-acc 0.9524 err 3.9980
+saving model
+Train [21] Time 393.753 s-acc 0.9008 l-acc 0.9961 m-acc 0.9580 err 3.9365
+Valid [21] Time 21.941 s-acc 0.9177 l-acc 0.9967 m-acc 0.9646 err 3.8636
+saving model
+Train [22] Time 394.332 s-acc 0.9077 l-acc 0.9964 m-acc 0.9607 err 3.8938
+Valid [22] Time 21.986 s-acc 0.9265 l-acc 0.9971 m-acc 0.9679 err 3.8107
+saving model
+Train [23] Time 393.855 s-acc 0.9125 l-acc 0.9964 m-acc 0.9625 err 3.8655
+Valid [23] Time 22.061 s-acc 0.9224 l-acc 0.9970 m-acc 0.9665 err 3.8152
+Train [24] Time 394.496 s-acc 0.9181 l-acc 0.9967 m-acc 0.9648 err 3.8331
+Valid [24] Time 22.049 s-acc 0.9302 l-acc 0.9973 m-acc 0.9699 err 3.7748
+saving model
+Train [25] Time 394.181 s-acc 0.9229 l-acc 0.9968 m-acc 0.9669 err 3.8023
+Valid [25] Time 21.999 s-acc 0.9252 l-acc 0.9968 m-acc 0.9678 err 3.7914
+Train [26] Time 393.983 s-acc 0.9259 l-acc 0.9967 m-acc 0.9680 err 3.7852
+Valid [26] Time 21.940 s-acc 0.9254 l-acc 0.9970 m-acc 0.9682 err 3.7774
+Train [27] Time 394.205 s-acc 0.9293 l-acc 0.9970 m-acc 0.9696 err 3.7580
+Valid [27] Time 21.885 s-acc 0.9295 l-acc 0.9973 m-acc 0.9699 err 3.7489
+Train [28] Time 394.100 s-acc 0.9317 l-acc 0.9970 m-acc 0.9704 err 3.7439
+Valid [28] Time 21.946 s-acc 0.9463 l-acc 0.9978 m-acc 0.9766 err 3.6737
+saving model
+Train [29] Time 399.805 s-acc 0.9342 l-acc 0.9972 m-acc 0.9715 err 3.7248
+Valid [29] Time 21.846 s-acc 0.9404 l-acc 0.9973 m-acc 0.9740 err 3.6926
+Train [30] Time 473.643 s-acc 0.9371 l-acc 0.9971 m-acc 0.9725 err 3.7104
+Valid [30] Time 35.572 s-acc 0.9392 l-acc 0.9975 m-acc 0.9739 err 3.6934
+Train [31] Time 650.310 s-acc 0.9395 l-acc 0.9974 m-acc 0.9737 err 3.6923
+Valid [31] Time 35.499 s-acc 0.9325 l-acc 0.9973 m-acc 0.9712 err 3.7174
+Train [32] Time 650.662 s-acc 0.9411 l-acc 0.9973 m-acc 0.9743 err 3.6823
+Valid [32] Time 35.545 s-acc 0.9363 l-acc 0.9976 m-acc 0.9732 err 3.6875
+Train [33] Time 652.273 s-acc 0.9426 l-acc 0.9974 m-acc 0.9750 err 3.6717
+Valid [33] Time 35.745 s-acc 0.9379 l-acc 0.9978 m-acc 0.9738 err 3.6773
+Train [34] Time 652.757 s-acc 0.9443 l-acc 0.9974 m-acc 0.9757 err 3.6579
+Valid [34] Time 35.613 s-acc 0.9448 l-acc 0.9974 m-acc 0.9761 err 3.6583
+Train [35] Time 651.898 s-acc 0.9456 l-acc 0.9975 m-acc 0.9763 err 3.6482
+Valid [35] Time 35.797 s-acc 0.9492 l-acc 0.9976 m-acc 0.9773 err 3.6353
+saving model
+Train [36] Time 652.793 s-acc 0.9476 l-acc 0.9976 m-acc 0.9772 err 3.6356
+Valid [36] Time 35.586 s-acc 0.9573 l-acc 0.9980 m-acc 0.9811 err 3.5908
+saving model
+Train [37] Time 652.628 s-acc 0.9492 l-acc 0.9976 m-acc 0.9777 err 3.6290
+Valid [37] Time 35.772 s-acc 0.9471 l-acc 0.9974 m-acc 0.9768 err 3.6378
+Train [38] Time 652.201 s-acc 0.9493 l-acc 0.9976 m-acc 0.9778 err 3.6245
+Valid [38] Time 35.809 s-acc 0.9576 l-acc 0.9979 m-acc 0.9814 err 3.5847
+saving model
+Train [39] Time 652.994 s-acc 0.9510 l-acc 0.9976 m-acc 0.9785 err 3.6143
+Valid [39] Time 35.540 s-acc 0.9591 l-acc 0.9980 m-acc 0.9816 err 3.5752
+saving model
+Train [40] Time 652.527 s-acc 0.9521 l-acc 0.9977 m-acc 0.9790 err 3.6060
+Valid [40] Time 35.669 s-acc 0.9473 l-acc 0.9978 m-acc 0.9774 err 3.6148
+Train [41] Time 644.412 s-acc 0.9523 l-acc 0.9977 m-acc 0.9791 err 3.6016
+Valid [41] Time 35.725 s-acc 0.9550 l-acc 0.9980 m-acc 0.9804 err 3.5877
+Train [42] Time 651.961 s-acc 0.9535 l-acc 0.9977 m-acc 0.9796 err 3.5951
+Valid [42] Time 35.926 s-acc 0.9526 l-acc 0.9980 m-acc 0.9796 err 3.5928
+Train [43] Time 550.671 s-acc 0.9541 l-acc 0.9978 m-acc 0.9799 err 3.5888
+Valid [43] Time 31.644 s-acc 0.9341 l-acc 0.9972 m-acc 0.9719 err 3.6752
+Train [44] Time 644.681 s-acc 0.9544 l-acc 0.9978 m-acc 0.9800 err 3.5874
+Valid [44] Time 35.129 s-acc 0.9546 l-acc 0.9978 m-acc 0.9799 err 3.5888
+Train [45] Time 644.149 s-acc 0.9557 l-acc 0.9978 m-acc 0.9806 err 3.5793
+Valid [45] Time 35.182 s-acc 0.9536 l-acc 0.9980 m-acc 0.9799 err 3.5829
+Train [46] Time 643.782 s-acc 0.9563 l-acc 0.9978 m-acc 0.9807 err 3.5756
+Valid [46] Time 34.984 s-acc 0.9569 l-acc 0.9982 m-acc 0.9814 err 3.5616
+Train [47] Time 642.257 s-acc 0.9571 l-acc 0.9979 m-acc 0.9811 err 3.5687
+Valid [47] Time 35.241 s-acc 0.9697 l-acc 0.9984 m-acc 0.9863 err 3.5124
+saving model
+Train [48] Time 643.518 s-acc 0.9578 l-acc 0.9979 m-acc 0.9814 err 3.5645
+Valid [48] Time 35.180 s-acc 0.9682 l-acc 0.9982 m-acc 0.9855 err 3.5181
+Train [49] Time 642.609 s-acc 0.9581 l-acc 0.9979 m-acc 0.9815 err 3.5625
+Valid [49] Time 35.214 s-acc 0.9553 l-acc 0.9979 m-acc 0.9804 err 3.5746
+Train [50] Time 642.681 s-acc 0.9589 l-acc 0.9979 m-acc 0.9819 err 3.5557
+Valid [50] Time 35.240 s-acc 0.9549 l-acc 0.9981 m-acc 0.9808 err 3.5656
+Train [51] Time 643.354 s-acc 0.9598 l-acc 0.9981 m-acc 0.9824 err 3.5478
+Valid [51] Time 35.072 s-acc 0.9695 l-acc 0.9981 m-acc 0.9859 err 3.5097
+Train [52] Time 642.671 s-acc 0.9610 l-acc 0.9980 m-acc 0.9827 err 3.5440
+Valid [52] Time 35.128 s-acc 0.9699 l-acc 0.9985 m-acc 0.9866 err 3.4978
+saving model
+Train [53] Time 611.373 s-acc 0.9614 l-acc 0.9981 m-acc 0.9830 err 3.5400
+Valid [53] Time 21.946 s-acc 0.9569 l-acc 0.9978 m-acc 0.9810 err 3.5588
+Train [54] Time 393.866 s-acc 0.9616 l-acc 0.9981 m-acc 0.9831 err 3.5371
+Valid [54] Time 21.940 s-acc 0.9578 l-acc 0.9976 m-acc 0.9808 err 3.5620
+Train [55] Time 394.244 s-acc 0.9620 l-acc 0.9981 m-acc 0.9832 err 3.5352
+Valid [55] Time 21.890 s-acc 0.9585 l-acc 0.9981 m-acc 0.9822 err 3.5432
+Train [56] Time 393.800 s-acc 0.9623 l-acc 0.9981 m-acc 0.9833 err 3.5316
+Valid [56] Time 21.764 s-acc 0.9647 l-acc 0.9982 m-acc 0.9842 err 3.5214
+Train [57] Time 393.897 s-acc 0.9627 l-acc 0.9981 m-acc 0.9836 err 3.5291
+Valid [57] Time 21.918 s-acc 0.9618 l-acc 0.9984 m-acc 0.9837 err 3.5206
+Train [58] Time 394.854 s-acc 0.9640 l-acc 0.9982 m-acc 0.9841 err 3.5219
+Valid [58] Time 32.224 s-acc 0.9543 l-acc 0.9981 m-acc 0.9808 err 3.5590
+Train [59] Time 394.888 s-acc 0.9639 l-acc 0.9982 m-acc 0.9840 err 3.5225
+Valid [59] Time 21.853 s-acc 0.9645 l-acc 0.9984 m-acc 0.9845 err 3.5189
+Train [60] Time 394.192 s-acc 0.9647 l-acc 0.9982 m-acc 0.9844 err 3.5156
+Valid [60] Time 21.855 s-acc 0.9670 l-acc 0.9986 m-acc 0.9858 err 3.4952
+Train [61] Time 393.710 s-acc 0.9648 l-acc 0.9981 m-acc 0.9844 err 3.5151
+Valid [61] Time 21.852 s-acc 0.9654 l-acc 0.9982 m-acc 0.9845 err 3.5127
+Train [62] Time 393.465 s-acc 0.9645 l-acc 0.9982 m-acc 0.9844 err 3.5140
+Valid [62] Time 21.829 s-acc 0.9617 l-acc 0.9982 m-acc 0.9831 err 3.5289
+Train [63] Time 400.727 s-acc 0.9652 l-acc 0.9982 m-acc 0.9846 err 3.5110
+Valid [63] Time 21.742 s-acc 0.9655 l-acc 0.9985 m-acc 0.9854 err 3.5014
+Train [64] Time 489.835 s-acc 0.9662 l-acc 0.9983 m-acc 0.9850 err 3.5061
+Valid [64] Time 21.760 s-acc 0.9715 l-acc 0.9985 m-acc 0.9873 err 3.4764
+saving model
+Train [65] Time 392.905 s-acc 0.9670 l-acc 0.9983 m-acc 0.9854 err 3.5013
+Valid [65] Time 21.895 s-acc 0.9733 l-acc 0.9986 m-acc 0.9882 err 3.4718
+saving model
+Train [66] Time 393.199 s-acc 0.9669 l-acc 0.9983 m-acc 0.9853 err 3.5017
+Valid [66] Time 21.827 s-acc 0.9674 l-acc 0.9983 m-acc 0.9857 err 3.4957
+Train [67] Time 474.719 s-acc 0.9666 l-acc 0.9983 m-acc 0.9852 err 3.5017
+Valid [67] Time 34.165 s-acc 0.9697 l-acc 0.9986 m-acc 0.9869 err 3.4810
+Train [68] Time 615.036 s-acc 0.9679 l-acc 0.9984 m-acc 0.9858 err 3.4936
+Valid [68] Time 34.030 s-acc 0.9642 l-acc 0.9982 m-acc 0.9845 err 3.5045
+Train [69] Time 614.884 s-acc 0.9675 l-acc 0.9984 m-acc 0.9856 err 3.4955
+Valid [69] Time 34.000 s-acc 0.9642 l-acc 0.9980 m-acc 0.9837 err 3.5202
+Train [70] Time 613.560 s-acc 0.9685 l-acc 0.9984 m-acc 0.9860 err 3.4909
+Valid [70] Time 33.610 s-acc 0.9732 l-acc 0.9984 m-acc 0.9878 err 3.4720
+Train [71] Time 614.236 s-acc 0.9692 l-acc 0.9985 m-acc 0.9864 err 3.4856
+Valid [71] Time 34.020 s-acc 0.9658 l-acc 0.9983 m-acc 0.9851 err 3.5004
+Train [72] Time 606.560 s-acc 0.9691 l-acc 0.9984 m-acc 0.9863 err 3.4861
+Valid [72] Time 33.776 s-acc 0.9713 l-acc 0.9986 m-acc 0.9875 err 3.4750
+Train [73] Time 615.100 s-acc 0.9694 l-acc 0.9984 m-acc 0.9864 err 3.4837
+Valid [73] Time 34.017 s-acc 0.9667 l-acc 0.9983 m-acc 0.9852 err 3.4985
+Train [74] Time 614.438 s-acc 0.9701 l-acc 0.9985 m-acc 0.9867 err 3.4800
+Valid [74] Time 34.030 s-acc 0.9732 l-acc 0.9987 m-acc 0.9882 err 3.4647
+Train [75] Time 474.663 s-acc 0.9697 l-acc 0.9984 m-acc 0.9864 err 3.4830
+Valid [75] Time 21.805 s-acc 0.9710 l-acc 0.9986 m-acc 0.9870 err 3.4772
+Train [76] Time 565.652 s-acc 0.9702 l-acc 0.9984 m-acc 0.9867 err 3.4802
+Valid [76] Time 33.804 s-acc 0.9769 l-acc 0.9986 m-acc 0.9892 err 3.4532
+saving model
+Train [77] Time 611.051 s-acc 0.9708 l-acc 0.9984 m-acc 0.9870 err 3.4771
+Valid [77] Time 33.871 s-acc 0.9654 l-acc 0.9976 m-acc 0.9837 err 3.5161
+Train [78] Time 611.795 s-acc 0.9710 l-acc 0.9985 m-acc 0.9872 err 3.4734
+Valid [78] Time 33.946 s-acc 0.9657 l-acc 0.9983 m-acc 0.9851 err 3.4987
+Train [79] Time 614.426 s-acc 0.9708 l-acc 0.9984 m-acc 0.9870 err 3.4753
+Valid [79] Time 34.016 s-acc 0.9657 l-acc 0.9985 m-acc 0.9854 err 3.4900
+Train [80] Time 603.369 s-acc 0.9712 l-acc 0.9985 m-acc 0.9872 err 3.4713
+Valid [80] Time 33.958 s-acc 0.9775 l-acc 0.9988 m-acc 0.9899 err 3.4455
+saving model
+Train [81] Time 613.826 s-acc 0.9717 l-acc 0.9985 m-acc 0.9874 err 3.4700
+Valid [81] Time 33.802 s-acc 0.9762 l-acc 0.9986 m-acc 0.9891 err 3.4541
+Train [82] Time 613.953 s-acc 0.9721 l-acc 0.9985 m-acc 0.9875 err 3.4667
+Valid [82] Time 33.884 s-acc 0.9765 l-acc 0.9986 m-acc 0.9891 err 3.4477
+Train [83] Time 614.817 s-acc 0.9719 l-acc 0.9986 m-acc 0.9875 err 3.4677
+Valid [83] Time 33.756 s-acc 0.9799 l-acc 0.9989 m-acc 0.9908 err 3.4317
+saving model
+Train [84] Time 614.644 s-acc 0.9724 l-acc 0.9986 m-acc 0.9877 err 3.4642
+Valid [84] Time 33.953 s-acc 0.9807 l-acc 0.9989 m-acc 0.9912 err 3.4256
+saving model
+Train [85] Time 607.369 s-acc 0.9722 l-acc 0.9986 m-acc 0.9876 err 3.4636
+Valid [85] Time 33.911 s-acc 0.9690 l-acc 0.9985 m-acc 0.9863 err 3.4774
+Train [86] Time 614.206 s-acc 0.9734 l-acc 0.9986 m-acc 0.9881 err 3.4595
+Valid [86] Time 33.822 s-acc 0.9729 l-acc 0.9986 m-acc 0.9879 err 3.4609
+Train [87] Time 616.279 s-acc 0.9730 l-acc 0.9986 m-acc 0.9880 err 3.4600
+Valid [87] Time 33.941 s-acc 0.9707 l-acc 0.9986 m-acc 0.9870 err 3.4690
+Train [88] Time 614.677 s-acc 0.9737 l-acc 0.9986 m-acc 0.9883 err 3.4569
+Valid [88] Time 33.569 s-acc 0.9731 l-acc 0.9986 m-acc 0.9880 err 3.4588
+Train [89] Time 606.755 s-acc 0.9738 l-acc 0.9986 m-acc 0.9883 err 3.4558
+Valid [89] Time 33.871 s-acc 0.9796 l-acc 0.9990 m-acc 0.9910 err 3.4275
+Train [90] Time 613.916 s-acc 0.9733 l-acc 0.9986 m-acc 0.9882 err 3.4564
+Valid [90] Time 33.964 s-acc 0.9756 l-acc 0.9988 m-acc 0.9894 err 3.4435
+Train [91] Time 614.202 s-acc 0.9739 l-acc 0.9987 m-acc 0.9884 err 3.4532
+Valid [91] Time 33.854 s-acc 0.9755 l-acc 0.9988 m-acc 0.9892 err 3.4465
+Train [92] Time 614.292 s-acc 0.9747 l-acc 0.9987 m-acc 0.9888 err 3.4499
+Valid [92] Time 33.862 s-acc 0.9772 l-acc 0.9989 m-acc 0.9898 err 3.4389
+Train [93] Time 613.717 s-acc 0.9747 l-acc 0.9986 m-acc 0.9888 err 3.4495
+Valid [93] Time 26.010 s-acc 0.9682 l-acc 0.9987 m-acc 0.9865 err 3.4742
+Train [94] Time 614.920 s-acc 0.9742 l-acc 0.9986 m-acc 0.9886 err 3.4515
+Valid [94] Time 33.645 s-acc 0.9758 l-acc 0.9987 m-acc 0.9891 err 3.4458
+Train [95] Time 614.992 s-acc 0.9739 l-acc 0.9986 m-acc 0.9884 err 3.4531
+Valid [95] Time 33.868 s-acc 0.9723 l-acc 0.9986 m-acc 0.9877 err 3.4620
+Train [96] Time 614.761 s-acc 0.9749 l-acc 0.9987 m-acc 0.9889 err 3.4471
+Valid [96] Time 33.913 s-acc 0.9745 l-acc 0.9987 m-acc 0.9888 err 3.4478
+Train [97] Time 615.236 s-acc 0.9754 l-acc 0.9987 m-acc 0.9890 err 3.4461
+Valid [97] Time 33.887 s-acc 0.9678 l-acc 0.9986 m-acc 0.9863 err 3.4721
+Train [98] Time 606.052 s-acc 0.9758 l-acc 0.9988 m-acc 0.9893 err 3.4422
+Valid [98] Time 33.923 s-acc 0.9751 l-acc 0.9987 m-acc 0.9890 err 3.4433
+Train [99] Time 613.724 s-acc 0.9761 l-acc 0.9988 m-acc 0.9895 err 3.4396
+Valid [99] Time 33.606 s-acc 0.9760 l-acc 0.9987 m-acc 0.9893 err 3.4431
+Train [100] Time 614.631 s-acc 0.9758 l-acc 0.9987 m-acc 0.9892 err 3.4429
+Valid [100] Time 33.855 s-acc 0.9798 l-acc 0.9986 m-acc 0.9905 err 3.4289
+Train [101] Time 614.222 s-acc 0.9761 l-acc 0.9987 m-acc 0.9894 err 3.4404
+Valid [101] Time 33.609 s-acc 0.9779 l-acc 0.9988 m-acc 0.9902 err 3.4330
+Train [102] Time 607.095 s-acc 0.9754 l-acc 0.9988 m-acc 0.9890 err 3.4427
+Valid [102] Time 33.576 s-acc 0.9826 l-acc 0.9989 m-acc 0.9918 err 3.4154
+saving model
+Train [103] Time 614.107 s-acc 0.9762 l-acc 0.9988 m-acc 0.9894 err 3.4389
+Valid [103] Time 33.861 s-acc 0.9860 l-acc 0.9992 m-acc 0.9935 err 3.3916
+saving model
+Train [104] Time 614.435 s-acc 0.9767 l-acc 0.9988 m-acc 0.9896 err 3.4380
+Valid [104] Time 33.894 s-acc 0.9811 l-acc 0.9989 m-acc 0.9913 err 3.4185
+Train [105] Time 614.570 s-acc 0.9770 l-acc 0.9988 m-acc 0.9897 err 3.4362
+Valid [105] Time 33.856 s-acc 0.9717 l-acc 0.9987 m-acc 0.9875 err 3.4612
+Train [106] Time 614.578 s-acc 0.9776 l-acc 0.9989 m-acc 0.9900 err 3.4309
+Valid [106] Time 33.662 s-acc 0.9716 l-acc 0.9989 m-acc 0.9878 err 3.4548
+Train [107] Time 606.160 s-acc 0.9770 l-acc 0.9989 m-acc 0.9898 err 3.4332
+Valid [107] Time 33.423 s-acc 0.9837 l-acc 0.9990 m-acc 0.9924 err 3.4072
+Train [108] Time 613.898 s-acc 0.9773 l-acc 0.9988 m-acc 0.9899 err 3.4326
+Valid [108] Time 33.781 s-acc 0.9832 l-acc 0.9991 m-acc 0.9923 err 3.4069
+Train [109] Time 614.224 s-acc 0.9770 l-acc 0.9988 m-acc 0.9898 err 3.4340
+Valid [109] Time 33.820 s-acc 0.9772 l-acc 0.9989 m-acc 0.9900 err 3.4304
+Train [110] Time 612.815 s-acc 0.9776 l-acc 0.9989 m-acc 0.9901 err 3.4300
+Valid [110] Time 33.805 s-acc 0.9804 l-acc 0.9989 m-acc 0.9912 err 3.4150
+Train [111] Time 605.274 s-acc 0.9772 l-acc 0.9989 m-acc 0.9899 err 3.4315
+Valid [111] Time 33.453 s-acc 0.9812 l-acc 0.9988 m-acc 0.9915 err 3.4153
+Train [112] Time 614.409 s-acc 0.9782 l-acc 0.9989 m-acc 0.9904 err 3.4262
+Valid [112] Time 33.575 s-acc 0.9835 l-acc 0.9990 m-acc 0.9924 err 3.4035
+Train [113] Time 610.027 s-acc 0.9783 l-acc 0.9989 m-acc 0.9903 err 3.4266
+Valid [113] Time 33.746 s-acc 0.9754 l-acc 0.9988 m-acc 0.9891 err 3.4416
+Train [114] Time 610.783 s-acc 0.9785 l-acc 0.9989 m-acc 0.9904 err 3.4253
+Valid [114] Time 33.877 s-acc 0.9797 l-acc 0.9990 m-acc 0.9911 err 3.4209
+Train [115] Time 612.004 s-acc 0.9785 l-acc 0.9989 m-acc 0.9905 err 3.4254
+Valid [115] Time 33.850 s-acc 0.9755 l-acc 0.9989 m-acc 0.9894 err 3.4328
+Train [116] Time 603.187 s-acc 0.9786 l-acc 0.9989 m-acc 0.9905 err 3.4248
+Valid [116] Time 33.830 s-acc 0.9790 l-acc 0.9989 m-acc 0.9906 err 3.4208
+Train [117] Time 612.052 s-acc 0.9783 l-acc 0.9989 m-acc 0.9904 err 3.4245
+Valid [117] Time 33.736 s-acc 0.9785 l-acc 0.9987 m-acc 0.9902 err 3.4283
+Train [118] Time 613.719 s-acc 0.9786 l-acc 0.9989 m-acc 0.9905 err 3.4231
+Valid [118] Time 33.685 s-acc 0.9794 l-acc 0.9990 m-acc 0.9911 err 3.4180
+Train [119] Time 612.221 s-acc 0.9790 l-acc 0.9989 m-acc 0.9906 err 3.4228
+Valid [119] Time 33.684 s-acc 0.9788 l-acc 0.9989 m-acc 0.9906 err 3.4211
+Train [120] Time 605.875 s-acc 0.9791 l-acc 0.9989 m-acc 0.9907 err 3.4197
+Valid [120] Time 33.908 s-acc 0.9812 l-acc 0.9992 m-acc 0.9919 err 3.4059
+Train [121] Time 612.314 s-acc 0.9792 l-acc 0.9989 m-acc 0.9907 err 3.4202
+Valid [121] Time 33.678 s-acc 0.9814 l-acc 0.9990 m-acc 0.9915 err 3.4109
+Train [122] Time 613.910 s-acc 0.9792 l-acc 0.9990 m-acc 0.9908 err 3.4192
+Valid [122] Time 33.508 s-acc 0.9791 l-acc 0.9990 m-acc 0.9907 err 3.4212
+Train [123] Time 613.618 s-acc 0.9797 l-acc 0.9990 m-acc 0.9910 err 3.4157
+Valid [123] Time 33.800 s-acc 0.9790 l-acc 0.9988 m-acc 0.9904 err 3.4237
+Train [124] Time 612.939 s-acc 0.9793 l-acc 0.9989 m-acc 0.9908 err 3.4191
+Valid [124] Time 31.677 s-acc 0.9827 l-acc 0.9992 m-acc 0.9923 err 3.4011
+Train [125] Time 606.812 s-acc 0.9801 l-acc 0.9990 m-acc 0.9912 err 3.4140
+Valid [125] Time 33.856 s-acc 0.9800 l-acc 0.9991 m-acc 0.9913 err 3.4119
+Train [126] Time 613.139 s-acc 0.9802 l-acc 0.9989 m-acc 0.9912 err 3.4146
+Valid [126] Time 33.907 s-acc 0.9841 l-acc 0.9992 m-acc 0.9929 err 3.3934
+Train [127] Time 613.222 s-acc 0.9806 l-acc 0.9990 m-acc 0.9914 err 3.4120
+Valid [127] Time 33.751 s-acc 0.9804 l-acc 0.9992 m-acc 0.9914 err 3.4125
+Train [128] Time 614.476 s-acc 0.9797 l-acc 0.9990 m-acc 0.9910 err 3.4162
+Valid [128] Time 33.946 s-acc 0.9868 l-acc 0.9993 m-acc 0.9941 err 3.3824
+saving model
+Train [129] Time 604.763 s-acc 0.9805 l-acc 0.9991 m-acc 0.9914 err 3.4120
+Valid [129] Time 33.916 s-acc 0.9847 l-acc 0.9992 m-acc 0.9933 err 3.3896
+Train [130] Time 614.184 s-acc 0.9799 l-acc 0.9990 m-acc 0.9911 err 3.4151
+Valid [130] Time 33.855 s-acc 0.9844 l-acc 0.9992 m-acc 0.9931 err 3.3934
+Train [131] Time 612.534 s-acc 0.9810 l-acc 0.9990 m-acc 0.9916 err 3.4094
+Valid [131] Time 33.939 s-acc 0.9864 l-acc 0.9993 m-acc 0.9939 err 3.3826
+Train [132] Time 613.288 s-acc 0.9809 l-acc 0.9990 m-acc 0.9916 err 3.4093
+Valid [132] Time 33.459 s-acc 0.9809 l-acc 0.9986 m-acc 0.9908 err 3.4191
+Train [133] Time 605.305 s-acc 0.9811 l-acc 0.9991 m-acc 0.9916 err 3.4083
+Valid [133] Time 33.827 s-acc 0.9725 l-acc 0.9987 m-acc 0.9879 err 3.4493
+Train [134] Time 613.803 s-acc 0.9804 l-acc 0.9990 m-acc 0.9913 err 3.4121
+Valid [134] Time 33.801 s-acc 0.9830 l-acc 0.9990 m-acc 0.9923 err 3.4029
+Train [135] Time 613.350 s-acc 0.9814 l-acc 0.9990 m-acc 0.9918 err 3.4067
+Valid [135] Time 33.599 s-acc 0.9848 l-acc 0.9992 m-acc 0.9932 err 3.3904
+Train [136] Time 613.275 s-acc 0.9810 l-acc 0.9990 m-acc 0.9916 err 3.4086
+Valid [136] Time 33.864 s-acc 0.9783 l-acc 0.9989 m-acc 0.9904 err 3.4203
+Train [137] Time 614.111 s-acc 0.9805 l-acc 0.9990 m-acc 0.9914 err 3.4097
+Valid [137] Time 33.878 s-acc 0.9835 l-acc 0.9991 m-acc 0.9924 err 3.3983
+Train [138] Time 605.852 s-acc 0.9811 l-acc 0.9990 m-acc 0.9916 err 3.4089
+Valid [138] Time 33.871 s-acc 0.9856 l-acc 0.9992 m-acc 0.9935 err 3.3865
+Train [139] Time 613.233 s-acc 0.9810 l-acc 0.9991 m-acc 0.9917 err 3.4071
+Valid [139] Time 33.571 s-acc 0.9882 l-acc 0.9994 m-acc 0.9947 err 3.3737
+saving model
+Train [140] Time 614.224 s-acc 0.9808 l-acc 0.9991 m-acc 0.9915 err 3.4082
+Valid [140] Time 33.902 s-acc 0.9836 l-acc 0.9994 m-acc 0.9930 err 3.3891
+Train [141] Time 613.054 s-acc 0.9814 l-acc 0.9991 m-acc 0.9917 err 3.4065
+Valid [141] Time 33.892 s-acc 0.9706 l-acc 0.9989 m-acc 0.9876 err 3.4519
+Train [142] Time 605.676 s-acc 0.9815 l-acc 0.9991 m-acc 0.9918 err 3.4055
+Valid [142] Time 33.872 s-acc 0.9819 l-acc 0.9992 m-acc 0.9921 err 3.4017
+Train [143] Time 613.527 s-acc 0.9812 l-acc 0.9991 m-acc 0.9917 err 3.4057
+Valid [143] Time 33.855 s-acc 0.9856 l-acc 0.9992 m-acc 0.9934 err 3.3873
+Train [144] Time 613.562 s-acc 0.9814 l-acc 0.9990 m-acc 0.9918 err 3.4053
+Valid [144] Time 33.847 s-acc 0.9846 l-acc 0.9991 m-acc 0.9927 err 3.3959
+Train [145] Time 613.032 s-acc 0.9816 l-acc 0.9991 m-acc 0.9919 err 3.4034
+Valid [145] Time 33.824 s-acc 0.9848 l-acc 0.9992 m-acc 0.9931 err 3.3897
+Train [146] Time 613.868 s-acc 0.9818 l-acc 0.9991 m-acc 0.9919 err 3.4033
+Valid [146] Time 33.818 s-acc 0.9865 l-acc 0.9994 m-acc 0.9942 err 3.3775
+Train [147] Time 599.167 s-acc 0.9816 l-acc 0.9991 m-acc 0.9919 err 3.4042
+Valid [147] Time 32.969 s-acc 0.9845 l-acc 0.9993 m-acc 0.9932 err 3.3880
+Train [148] Time 607.355 s-acc 0.9821 l-acc 0.9991 m-acc 0.9921 err 3.4013
+Valid [148] Time 33.490 s-acc 0.9855 l-acc 0.9992 m-acc 0.9935 err 3.3833
+Train [149] Time 609.009 s-acc 0.9827 l-acc 0.9991 m-acc 0.9923 err 3.3991
+Valid [149] Time 33.551 s-acc 0.9855 l-acc 0.9992 m-acc 0.9934 err 3.3869
+Train [150] Time 606.313 s-acc 0.9822 l-acc 0.9992 m-acc 0.9921 err 3.4002
+Valid [150] Time 32.854 s-acc 0.9797 l-acc 0.9992 m-acc 0.9912 err 3.4115
+Train [151] Time 594.994 s-acc 0.9824 l-acc 0.9991 m-acc 0.9923 err 3.3985
+Valid [151] Time 32.885 s-acc 0.9829 l-acc 0.9990 m-acc 0.9920 err 3.4040
+Train [152] Time 599.039 s-acc 0.9827 l-acc 0.9991 m-acc 0.9923 err 3.3989
+Valid [152] Time 32.520 s-acc 0.9818 l-acc 0.9992 m-acc 0.9922 err 3.4001
+Train [153] Time 597.912 s-acc 0.9828 l-acc 0.9991 m-acc 0.9924 err 3.3984
+Valid [153] Time 33.777 s-acc 0.9784 l-acc 0.9990 m-acc 0.9903 err 3.4215
+Train [154] Time 597.584 s-acc 0.9829 l-acc 0.9991 m-acc 0.9924 err 3.3973
+Valid [154] Time 33.119 s-acc 0.9839 l-acc 0.9991 m-acc 0.9928 err 3.3939
+Train [155] Time 598.362 s-acc 0.9828 l-acc 0.9991 m-acc 0.9924 err 3.3976
+Valid [155] Time 33.829 s-acc 0.9843 l-acc 0.9993 m-acc 0.9931 err 3.3892
+Train [156] Time 587.973 s-acc 0.9828 l-acc 0.9992 m-acc 0.9924 err 3.3966
+Valid [156] Time 33.192 s-acc 0.9856 l-acc 0.9993 m-acc 0.9935 err 3.3858
+Train [157] Time 604.048 s-acc 0.9830 l-acc 0.9992 m-acc 0.9925 err 3.3951
+Valid [157] Time 33.218 s-acc 0.9835 l-acc 0.9991 m-acc 0.9927 err 3.3954
+Train [158] Time 603.959 s-acc 0.9830 l-acc 0.9991 m-acc 0.9924 err 3.3965
+Valid [158] Time 33.519 s-acc 0.9870 l-acc 0.9994 m-acc 0.9942 err 3.3773
+Train [159] Time 478.223 s-acc 0.9826 l-acc 0.9991 m-acc 0.9924 err 3.3972
+Valid [159] Time 22.085 s-acc 0.9774 l-acc 0.9990 m-acc 0.9901 err 3.4220
+Train [160] Time 592.152 s-acc 0.9833 l-acc 0.9992 m-acc 0.9926 err 3.3930
+Valid [160] Time 33.955 s-acc 0.9861 l-acc 0.9993 m-acc 0.9939 err 3.3797
+Train [161] Time 612.832 s-acc 0.9829 l-acc 0.9992 m-acc 0.9925 err 3.3950
+Valid [161] Time 33.554 s-acc 0.9820 l-acc 0.9993 m-acc 0.9922 err 3.3977
+Train [162] Time 613.492 s-acc 0.9828 l-acc 0.9991 m-acc 0.9924 err 3.3958
+Valid [162] Time 33.165 s-acc 0.9787 l-acc 0.9991 m-acc 0.9908 err 3.4144
+Train [163] Time 612.254 s-acc 0.9828 l-acc 0.9992 m-acc 0.9925 err 3.3952
+Valid [163] Time 33.385 s-acc 0.9855 l-acc 0.9993 m-acc 0.9936 err 3.3812
+Train [164] Time 600.314 s-acc 0.9835 l-acc 0.9992 m-acc 0.9926 err 3.3930
+Valid [164] Time 34.038 s-acc 0.9861 l-acc 0.9993 m-acc 0.9939 err 3.3804
+Train [165] Time 613.434 s-acc 0.9829 l-acc 0.9991 m-acc 0.9924 err 3.3955
+Valid [165] Time 33.742 s-acc 0.9838 l-acc 0.9993 m-acc 0.9928 err 3.3896
+Train [166] Time 612.464 s-acc 0.9835 l-acc 0.9992 m-acc 0.9928 err 3.3919
+Valid [166] Time 33.684 s-acc 0.9818 l-acc 0.9992 m-acc 0.9920 err 3.4005
+Train [167] Time 613.009 s-acc 0.9832 l-acc 0.9992 m-acc 0.9926 err 3.3936
+Valid [167] Time 33.732 s-acc 0.9866 l-acc 0.9992 m-acc 0.9937 err 3.3807
+Train [168] Time 613.085 s-acc 0.9836 l-acc 0.9991 m-acc 0.9927 err 3.3929
+Valid [168] Time 33.149 s-acc 0.9843 l-acc 0.9993 m-acc 0.9931 err 3.3871
+Train [169] Time 601.574 s-acc 0.9842 l-acc 0.9992 m-acc 0.9930 err 3.3879
+Valid [169] Time 33.940 s-acc 0.9890 l-acc 0.9994 m-acc 0.9950 err 3.3667
+saving model
+Train [170] Time 612.670 s-acc 0.9842 l-acc 0.9993 m-acc 0.9931 err 3.3869
+Valid [170] Time 33.930 s-acc 0.9773 l-acc 0.9992 m-acc 0.9905 err 3.4180
+Train [171] Time 612.782 s-acc 0.9837 l-acc 0.9992 m-acc 0.9928 err 3.3908
+Valid [171] Time 33.564 s-acc 0.9863 l-acc 0.9994 m-acc 0.9939 err 3.3778
+Train [172] Time 612.548 s-acc 0.9834 l-acc 0.9992 m-acc 0.9927 err 3.3921
+Valid [172] Time 33.926 s-acc 0.9861 l-acc 0.9993 m-acc 0.9938 err 3.3797
+Train [173] Time 601.986 s-acc 0.9839 l-acc 0.9992 m-acc 0.9929 err 3.3906
+Valid [173] Time 34.031 s-acc 0.9820 l-acc 0.9993 m-acc 0.9924 err 3.3942
+Train [174] Time 611.810 s-acc 0.9841 l-acc 0.9992 m-acc 0.9930 err 3.3889
+Valid [174] Time 34.020 s-acc 0.9733 l-acc 0.9992 m-acc 0.9892 err 3.4302
+Train [175] Time 596.281 s-acc 0.9839 l-acc 0.9992 m-acc 0.9929 err 3.3891
+Valid [175] Time 32.297 s-acc 0.9910 l-acc 0.9995 m-acc 0.9957 err 3.3574
+saving model
+Train [176] Time 572.302 s-acc 0.9846 l-acc 0.9992 m-acc 0.9932 err 3.3868
+Valid [176] Time 31.363 s-acc 0.9840 l-acc 0.9993 m-acc 0.9930 err 3.3877
+Train [177] Time 588.837 s-acc 0.9840 l-acc 0.9992 m-acc 0.9930 err 3.3884
+Valid [177] Time 32.768 s-acc 0.9859 l-acc 0.9992 m-acc 0.9935 err 3.3832
+Train [178] Time 574.022 s-acc 0.9844 l-acc 0.9993 m-acc 0.9931 err 3.3865
+Valid [178] Time 33.050 s-acc 0.9836 l-acc 0.9992 m-acc 0.9928 err 3.3917
+Train [179] Time 573.248 s-acc 0.9840 l-acc 0.9992 m-acc 0.9930 err 3.3877
+Valid [179] Time 33.379 s-acc 0.9895 l-acc 0.9994 m-acc 0.9953 err 3.3629
+Train [180] Time 582.992 s-acc 0.9846 l-acc 0.9992 m-acc 0.9932 err 3.3851
+Valid [180] Time 30.956 s-acc 0.9823 l-acc 0.9992 m-acc 0.9923 err 3.3937
+Train [181] Time 584.540 s-acc 0.9849 l-acc 0.9992 m-acc 0.9934 err 3.3835
+Valid [181] Time 32.581 s-acc 0.9801 l-acc 0.9993 m-acc 0.9919 err 3.4019
+Train [182] Time 589.893 s-acc 0.9846 l-acc 0.9992 m-acc 0.9932 err 3.3858
+Valid [182] Time 32.745 s-acc 0.9890 l-acc 0.9995 m-acc 0.9951 err 3.3633
+Train [183] Time 576.324 s-acc 0.9845 l-acc 0.9992 m-acc 0.9932 err 3.3868
+Valid [183] Time 32.883 s-acc 0.9879 l-acc 0.9995 m-acc 0.9946 err 3.3682
+Train [184] Time 574.414 s-acc 0.9846 l-acc 0.9993 m-acc 0.9932 err 3.3847
+Valid [184] Time 32.425 s-acc 0.9807 l-acc 0.9991 m-acc 0.9914 err 3.4036
+Train [185] Time 589.965 s-acc 0.9842 l-acc 0.9992 m-acc 0.9931 err 3.3863
+Valid [185] Time 33.134 s-acc 0.9868 l-acc 0.9994 m-acc 0.9942 err 3.3745
+Train [186] Time 571.843 s-acc 0.9847 l-acc 0.9993 m-acc 0.9932 err 3.3851
+Valid [186] Time 31.556 s-acc 0.9894 l-acc 0.9996 m-acc 0.9954 err 3.3586
+Train [187] Time 505.112 s-acc 0.9848 l-acc 0.9992 m-acc 0.9933 err 3.3847
+Valid [187] Time 21.891 s-acc 0.9864 l-acc 0.9993 m-acc 0.9939 err 3.3776
+Train [188] Time 536.896 s-acc 0.9850 l-acc 0.9993 m-acc 0.9934 err 3.3828
+Valid [188] Time 34.226 s-acc 0.9880 l-acc 0.9995 m-acc 0.9948 err 3.3689
+Train [189] Time 625.900 s-acc 0.9850 l-acc 0.9993 m-acc 0.9934 err 3.3827
+Valid [189] Time 34.331 s-acc 0.9901 l-acc 0.9995 m-acc 0.9956 err 3.3587
+Train [190] Time 626.487 s-acc 0.9849 l-acc 0.9993 m-acc 0.9933 err 3.3839
+Valid [190] Time 34.337 s-acc 0.9834 l-acc 0.9994 m-acc 0.9931 err 3.3875
+Train [191] Time 615.636 s-acc 0.9849 l-acc 0.9993 m-acc 0.9933 err 3.3841
+Valid [191] Time 34.606 s-acc 0.9881 l-acc 0.9995 m-acc 0.9947 err 3.3665
+Train [192] Time 625.442 s-acc 0.9851 l-acc 0.9993 m-acc 0.9933 err 3.3831
+Valid [192] Time 34.348 s-acc 0.9827 l-acc 0.9990 m-acc 0.9919 err 3.4010
+Train [193] Time 626.074 s-acc 0.9848 l-acc 0.9993 m-acc 0.9934 err 3.3828
+Valid [193] Time 34.553 s-acc 0.9855 l-acc 0.9994 m-acc 0.9939 err 3.3767
+Train [194] Time 625.724 s-acc 0.9852 l-acc 0.9993 m-acc 0.9934 err 3.3825
+Valid [194] Time 34.538 s-acc 0.9871 l-acc 0.9994 m-acc 0.9942 err 3.3717
+Train [195] Time 617.646 s-acc 0.9852 l-acc 0.9993 m-acc 0.9935 err 3.3816
+Valid [195] Time 34.253 s-acc 0.9844 l-acc 0.9995 m-acc 0.9935 err 3.3804
+Train [196] Time 625.840 s-acc 0.9857 l-acc 0.9993 m-acc 0.9937 err 3.3792
+Valid [196] Time 34.187 s-acc 0.9775 l-acc 0.9994 m-acc 0.9908 err 3.4088
+Train [197] Time 625.261 s-acc 0.9856 l-acc 0.9993 m-acc 0.9937 err 3.3790
+Valid [197] Time 34.253 s-acc 0.9815 l-acc 0.9995 m-acc 0.9925 err 3.3919
+Train [198] Time 616.079 s-acc 0.9853 l-acc 0.9993 m-acc 0.9936 err 3.3800
+Valid [198] Time 34.761 s-acc 0.9820 l-acc 0.9993 m-acc 0.9923 err 3.3942
+Train [199] Time 628.756 s-acc 0.9852 l-acc 0.9993 m-acc 0.9935 err 3.3807
+Valid [199] Time 34.465 s-acc 0.9846 l-acc 0.9993 m-acc 0.9932 err 3.3829
+Train [200] Time 626.843 s-acc 0.9857 l-acc 0.9993 m-acc 0.9938 err 3.3779
+Valid [200] Time 34.501 s-acc 0.9912 l-acc 0.9996 m-acc 0.9962 err 3.3511
+saving model
+Train [201] Time 627.310 s-acc 0.9858 l-acc 0.9994 m-acc 0.9938 err 3.3770
+Valid [201] Time 34.447 s-acc 0.9900 l-acc 0.9995 m-acc 0.9955 err 3.3576
+Train [202] Time 618.438 s-acc 0.9853 l-acc 0.9993 m-acc 0.9936 err 3.3799
+Valid [202] Time 34.415 s-acc 0.9873 l-acc 0.9995 m-acc 0.9945 err 3.3692
+Train [203] Time 626.318 s-acc 0.9860 l-acc 0.9993 m-acc 0.9939 err 3.3762
+Valid [203] Time 34.251 s-acc 0.9916 l-acc 0.9996 m-acc 0.9963 err 3.3497
+saving model
+Train [204] Time 629.222 s-acc 0.9857 l-acc 0.9993 m-acc 0.9937 err 3.3778
+Valid [204] Time 34.380 s-acc 0.9834 l-acc 0.9993 m-acc 0.9928 err 3.3870
+Train [205] Time 618.118 s-acc 0.9861 l-acc 0.9994 m-acc 0.9940 err 3.3754
+Valid [205] Time 34.358 s-acc 0.9887 l-acc 0.9995 m-acc 0.9950 err 3.3631
+Train [206] Time 625.490 s-acc 0.9854 l-acc 0.9993 m-acc 0.9936 err 3.3785
+Valid [206] Time 34.423 s-acc 0.9743 l-acc 0.9986 m-acc 0.9882 err 3.4408
+Train [207] Time 626.281 s-acc 0.9860 l-acc 0.9993 m-acc 0.9938 err 3.3766
+Valid [207] Time 34.474 s-acc 0.9885 l-acc 0.9995 m-acc 0.9949 err 3.3657
+Train [208] Time 615.279 s-acc 0.9856 l-acc 0.9993 m-acc 0.9937 err 3.3781
+Valid [208] Time 34.177 s-acc 0.9862 l-acc 0.9994 m-acc 0.9939 err 3.3740
+Train [209] Time 625.788 s-acc 0.9856 l-acc 0.9993 m-acc 0.9936 err 3.3786
+Valid [209] Time 34.340 s-acc 0.9918 l-acc 0.9996 m-acc 0.9963 err 3.3484
+saving model
+Train [210] Time 625.523 s-acc 0.9857 l-acc 0.9993 m-acc 0.9937 err 3.3791
+Valid [210] Time 34.497 s-acc 0.9762 l-acc 0.9991 m-acc 0.9902 err 3.4146
+Train [211] Time 627.378 s-acc 0.9858 l-acc 0.9993 m-acc 0.9938 err 3.3773
+Valid [211] Time 34.459 s-acc 0.9883 l-acc 0.9995 m-acc 0.9949 err 3.3634
+Train [212] Time 618.950 s-acc 0.9862 l-acc 0.9994 m-acc 0.9940 err 3.3750
+Valid [212] Time 34.292 s-acc 0.9877 l-acc 0.9995 m-acc 0.9946 err 3.3658
+Train [213] Time 627.073 s-acc 0.9859 l-acc 0.9994 m-acc 0.9938 err 3.3765
+Valid [213] Time 34.646 s-acc 0.9837 l-acc 0.9994 m-acc 0.9930 err 3.3853
+Train [214] Time 626.257 s-acc 0.9860 l-acc 0.9994 m-acc 0.9939 err 3.3760
+Valid [214] Time 34.365 s-acc 0.9874 l-acc 0.9994 m-acc 0.9945 err 3.3703
+Train [215] Time 618.336 s-acc 0.9867 l-acc 0.9993 m-acc 0.9941 err 3.3739
+Valid [215] Time 34.355 s-acc 0.9879 l-acc 0.9995 m-acc 0.9948 err 3.3659
+Train [216] Time 626.592 s-acc 0.9864 l-acc 0.9994 m-acc 0.9940 err 3.3744
+Valid [216] Time 34.435 s-acc 0.9861 l-acc 0.9994 m-acc 0.9939 err 3.3781
+Train [217] Time 626.202 s-acc 0.9861 l-acc 0.9993 m-acc 0.9939 err 3.3768
+Valid [217] Time 34.414 s-acc 0.9821 l-acc 0.9994 m-acc 0.9925 err 3.3903
+Train [218] Time 626.674 s-acc 0.9863 l-acc 0.9994 m-acc 0.9940 err 3.3743
+Valid [218] Time 34.423 s-acc 0.9878 l-acc 0.9995 m-acc 0.9948 err 3.3652
+Train [219] Time 618.814 s-acc 0.9863 l-acc 0.9993 m-acc 0.9939 err 3.3758
+Valid [219] Time 34.296 s-acc 0.9881 l-acc 0.9995 m-acc 0.9948 err 3.3643
+Train [220] Time 626.028 s-acc 0.9860 l-acc 0.9993 m-acc 0.9939 err 3.3756
+Valid [220] Time 34.374 s-acc 0.9839 l-acc 0.9992 m-acc 0.9930 err 3.3864
+Train [221] Time 625.719 s-acc 0.9862 l-acc 0.9994 m-acc 0.9939 err 3.3755
+Valid [221] Time 34.359 s-acc 0.9900 l-acc 0.9996 m-acc 0.9956 err 3.3572
+Train [222] Time 618.279 s-acc 0.9865 l-acc 0.9994 m-acc 0.9940 err 3.3735
+Valid [222] Time 34.470 s-acc 0.9863 l-acc 0.9995 m-acc 0.9941 err 3.3706
+Train [223] Time 626.523 s-acc 0.9863 l-acc 0.9994 m-acc 0.9940 err 3.3744
+Valid [223] Time 34.413 s-acc 0.9839 l-acc 0.9993 m-acc 0.9930 err 3.3861
+Train [224] Time 626.775 s-acc 0.9864 l-acc 0.9994 m-acc 0.9940 err 3.3742
+Valid [224] Time 34.428 s-acc 0.9914 l-acc 0.9996 m-acc 0.9962 err 3.3528
+Train [225] Time 628.484 s-acc 0.9866 l-acc 0.9994 m-acc 0.9941 err 3.3731
+Valid [225] Time 34.582 s-acc 0.9850 l-acc 0.9994 m-acc 0.9936 err 3.3794
+Train [226] Time 619.353 s-acc 0.9864 l-acc 0.9994 m-acc 0.9941 err 3.3728
+Valid [226] Time 34.532 s-acc 0.9816 l-acc 0.9992 m-acc 0.9919 err 3.3958
+Train [227] Time 628.788 s-acc 0.9865 l-acc 0.9994 m-acc 0.9941 err 3.3736
+Valid [227] Time 34.371 s-acc 0.9845 l-acc 0.9993 m-acc 0.9933 err 3.3820
+Train [228] Time 628.061 s-acc 0.9868 l-acc 0.9994 m-acc 0.9942 err 3.3713
+Valid [228] Time 34.596 s-acc 0.9846 l-acc 0.9995 m-acc 0.9935 err 3.3775
+Train [229] Time 618.937 s-acc 0.9866 l-acc 0.9994 m-acc 0.9941 err 3.3724
+Valid [229] Time 34.399 s-acc 0.9825 l-acc 0.9994 m-acc 0.9927 err 3.3871
+Train [230] Time 626.868 s-acc 0.9869 l-acc 0.9994 m-acc 0.9942 err 3.3712
+Valid [230] Time 34.598 s-acc 0.9821 l-acc 0.9993 m-acc 0.9922 err 3.3930
+Train [231] Time 626.677 s-acc 0.9868 l-acc 0.9994 m-acc 0.9942 err 3.3714
+Valid [231] Time 34.338 s-acc 0.9883 l-acc 0.9996 m-acc 0.9950 err 3.3625
+Train [232] Time 617.722 s-acc 0.9864 l-acc 0.9994 m-acc 0.9941 err 3.3732
+Valid [232] Time 34.260 s-acc 0.9906 l-acc 0.9996 m-acc 0.9958 err 3.3554
+Train [233] Time 625.947 s-acc 0.9867 l-acc 0.9994 m-acc 0.9942 err 3.3727
+Valid [233] Time 34.488 s-acc 0.9880 l-acc 0.9994 m-acc 0.9946 err 3.3694
+Train [234] Time 624.937 s-acc 0.9865 l-acc 0.9994 m-acc 0.9941 err 3.3726
+Valid [234] Time 34.470 s-acc 0.9815 l-acc 0.9994 m-acc 0.9921 err 3.3926
+Train [235] Time 625.726 s-acc 0.9861 l-acc 0.9994 m-acc 0.9940 err 3.3743
+Valid [235] Time 34.629 s-acc 0.9847 l-acc 0.9991 m-acc 0.9929 err 3.3858
+Train [236] Time 615.544 s-acc 0.9870 l-acc 0.9994 m-acc 0.9943 err 3.3714
+Valid [236] Time 34.226 s-acc 0.9912 l-acc 0.9996 m-acc 0.9962 err 3.3493
+Train [237] Time 625.089 s-acc 0.9869 l-acc 0.9994 m-acc 0.9942 err 3.3718
+Valid [237] Time 34.383 s-acc 0.9916 l-acc 0.9996 m-acc 0.9961 err 3.3500
+Train [238] Time 625.451 s-acc 0.9867 l-acc 0.9994 m-acc 0.9941 err 3.3725
+Valid [238] Time 34.109 s-acc 0.9863 l-acc 0.9995 m-acc 0.9942 err 3.3732
+Train [239] Time 617.121 s-acc 0.9876 l-acc 0.9994 m-acc 0.9946 err 3.3676
+Valid [239] Time 34.932 s-acc 0.9893 l-acc 0.9995 m-acc 0.9952 err 3.3588
+Train [240] Time 626.091 s-acc 0.9868 l-acc 0.9994 m-acc 0.9942 err 3.3712
+Valid [240] Time 34.570 s-acc 0.9841 l-acc 0.9994 m-acc 0.9932 err 3.3820
+Train [241] Time 625.161 s-acc 0.9868 l-acc 0.9994 m-acc 0.9942 err 3.3718
+Valid [241] Time 34.482 s-acc 0.9837 l-acc 0.9993 m-acc 0.9930 err 3.3848
+Train [242] Time 625.142 s-acc 0.9868 l-acc 0.9994 m-acc 0.9942 err 3.3714
+Valid [242] Time 34.323 s-acc 0.9916 l-acc 0.9996 m-acc 0.9962 err 3.3502
+Train [243] Time 617.329 s-acc 0.9870 l-acc 0.9994 m-acc 0.9943 err 3.3702
+Valid [243] Time 34.390 s-acc 0.9902 l-acc 0.9996 m-acc 0.9958 err 3.3532
+Train [244] Time 624.878 s-acc 0.9866 l-acc 0.9994 m-acc 0.9941 err 3.3720
+Valid [244] Time 34.339 s-acc 0.9886 l-acc 0.9995 m-acc 0.9950 err 3.3626
+Train [245] Time 625.323 s-acc 0.9867 l-acc 0.9994 m-acc 0.9942 err 3.3708
+Valid [245] Time 34.522 s-acc 0.9830 l-acc 0.9994 m-acc 0.9929 err 3.3851
+Train [246] Time 617.111 s-acc 0.9876 l-acc 0.9994 m-acc 0.9945 err 3.3674
+Valid [246] Time 34.327 s-acc 0.9846 l-acc 0.9992 m-acc 0.9931 err 3.3825
+Train [247] Time 626.084 s-acc 0.9872 l-acc 0.9994 m-acc 0.9944 err 3.3695
+Valid [247] Time 34.089 s-acc 0.9869 l-acc 0.9994 m-acc 0.9944 err 3.3702
+Train [248] Time 624.495 s-acc 0.9873 l-acc 0.9995 m-acc 0.9945 err 3.3682
+Valid [248] Time 34.488 s-acc 0.9895 l-acc 0.9995 m-acc 0.9954 err 3.3584
+Train [249] Time 617.338 s-acc 0.9873 l-acc 0.9994 m-acc 0.9945 err 3.3680
+Valid [249] Time 34.291 s-acc 0.9880 l-acc 0.9994 m-acc 0.9947 err 3.3652
+Train [250] Time 625.095 s-acc 0.9869 l-acc 0.9994 m-acc 0.9943 err 3.3713
+Valid [250] Time 34.268 s-acc 0.9795 l-acc 0.9994 m-acc 0.9918 err 3.4000
+Train [251] Time 625.300 s-acc 0.9882 l-acc 0.9995 m-acc 0.9949 err 3.3632
+Valid [251] Time 34.249 s-acc 0.9909 l-acc 0.9997 m-acc 0.9961 err 3.3466
+Train [252] Time 625.720 s-acc 0.9895 l-acc 0.9995 m-acc 0.9953 err 3.3570
+Valid [252] Time 34.486 s-acc 0.9910 l-acc 0.9996 m-acc 0.9959 err 3.3498
+Train [253] Time 616.969 s-acc 0.9899 l-acc 0.9995 m-acc 0.9955 err 3.3549
+Valid [253] Time 34.532 s-acc 0.9840 l-acc 0.9995 m-acc 0.9933 err 3.3781
+Train [254] Time 625.051 s-acc 0.9910 l-acc 0.9995 m-acc 0.9959 err 3.3486
+Valid [254] Time 34.376 s-acc 0.9935 l-acc 0.9996 m-acc 0.9971 err 3.3350
+saving model
+Train [255] Time 625.066 s-acc 0.9918 l-acc 0.9996 m-acc 0.9963 err 3.3446
+Valid [255] Time 34.230 s-acc 0.9926 l-acc 0.9996 m-acc 0.9966 err 3.3406
+Train [256] Time 616.307 s-acc 0.9924 l-acc 0.9996 m-acc 0.9965 err 3.3406
+Valid [256] Time 34.188 s-acc 0.9939 l-acc 0.9997 m-acc 0.9971 err 3.3345
+saving model
+Train [257] Time 625.480 s-acc 0.9928 l-acc 0.9996 m-acc 0.9967 err 3.3382
+Valid [257] Time 34.144 s-acc 0.9908 l-acc 0.9996 m-acc 0.9960 err 3.3466
+Train [258] Time 625.078 s-acc 0.9928 l-acc 0.9996 m-acc 0.9967 err 3.3380
+Valid [258] Time 34.233 s-acc 0.9918 l-acc 0.9996 m-acc 0.9964 err 3.3421
+Train [259] Time 624.387 s-acc 0.9934 l-acc 0.9996 m-acc 0.9969 err 3.3355
+Valid [259] Time 34.189 s-acc 0.9946 l-acc 0.9998 m-acc 0.9976 err 3.3281
+saving model
+Train [260] Time 617.147 s-acc 0.9937 l-acc 0.9996 m-acc 0.9971 err 3.3333
+Valid [260] Time 34.425 s-acc 0.9961 l-acc 0.9997 m-acc 0.9981 err 3.3228
+saving model
+Train [261] Time 625.981 s-acc 0.9942 l-acc 0.9997 m-acc 0.9973 err 3.3308
+Valid [261] Time 34.199 s-acc 0.9953 l-acc 0.9998 m-acc 0.9979 err 3.3239
+Train [262] Time 625.822 s-acc 0.9947 l-acc 0.9997 m-acc 0.9975 err 3.3279
+Valid [262] Time 34.325 s-acc 0.9968 l-acc 0.9998 m-acc 0.9984 err 3.3183
+saving model
+Train [263] Time 617.088 s-acc 0.9947 l-acc 0.9997 m-acc 0.9975 err 3.3276
+Valid [263] Time 34.482 s-acc 0.9960 l-acc 0.9998 m-acc 0.9982 err 3.3206
+Train [264] Time 624.478 s-acc 0.9952 l-acc 0.9997 m-acc 0.9977 err 3.3254
+Valid [264] Time 34.328 s-acc 0.9963 l-acc 0.9998 m-acc 0.9983 err 3.3187
+Train [265] Time 624.792 s-acc 0.9956 l-acc 0.9997 m-acc 0.9979 err 3.3233
+Valid [265] Time 34.251 s-acc 0.9972 l-acc 0.9998 m-acc 0.9985 err 3.3174
+saving model
+Train [266] Time 625.445 s-acc 0.9956 l-acc 0.9998 m-acc 0.9980 err 3.3226
+Valid [266] Time 26.359 s-acc 0.9969 l-acc 0.9998 m-acc 0.9985 err 3.3173
+Train [267] Time 624.799 s-acc 0.9959 l-acc 0.9998 m-acc 0.9980 err 3.3212
+Valid [267] Time 34.457 s-acc 0.9959 l-acc 0.9998 m-acc 0.9981 err 3.3204
+Train [268] Time 625.175 s-acc 0.9961 l-acc 0.9997 m-acc 0.9981 err 3.3202
+Valid [268] Time 34.484 s-acc 0.9971 l-acc 0.9998 m-acc 0.9986 err 3.3148
+Train [269] Time 624.902 s-acc 0.9961 l-acc 0.9998 m-acc 0.9981 err 3.3204
+Valid [269] Time 34.289 s-acc 0.9968 l-acc 0.9998 m-acc 0.9985 err 3.3167
+Train [270] Time 616.633 s-acc 0.9963 l-acc 0.9998 m-acc 0.9982 err 3.3198
+Valid [270] Time 34.283 s-acc 0.9949 l-acc 0.9997 m-acc 0.9975 err 3.3263
+Train [271] Time 625.109 s-acc 0.9965 l-acc 0.9998 m-acc 0.9983 err 3.3176
+Valid [271] Time 34.395 s-acc 0.9969 l-acc 0.9998 m-acc 0.9985 err 3.3157
+Train [272] Time 627.285 s-acc 0.9967 l-acc 0.9998 m-acc 0.9984 err 3.3170
+Valid [272] Time 34.647 s-acc 0.9970 l-acc 0.9997 m-acc 0.9983 err 3.3184
+Train [273] Time 618.259 s-acc 0.9969 l-acc 0.9998 m-acc 0.9985 err 3.3159
+Valid [273] Time 34.300 s-acc 0.9964 l-acc 0.9997 m-acc 0.9981 err 3.3196
+Train [274] Time 627.133 s-acc 0.9969 l-acc 0.9998 m-acc 0.9985 err 3.3156
+Valid [274] Time 34.345 s-acc 0.9972 l-acc 0.9998 m-acc 0.9987 err 3.3135
+Train [275] Time 627.114 s-acc 0.9970 l-acc 0.9998 m-acc 0.9986 err 3.3148
+Valid [275] Time 34.450 s-acc 0.9981 l-acc 0.9998 m-acc 0.9990 err 3.3102
+saving model
+Train [276] Time 628.150 s-acc 0.9970 l-acc 0.9998 m-acc 0.9985 err 3.3152
+Valid [276] Time 34.607 s-acc 0.9975 l-acc 0.9998 m-acc 0.9987 err 3.3132
+Train [277] Time 620.212 s-acc 0.9973 l-acc 0.9998 m-acc 0.9986 err 3.3136
+Valid [277] Time 34.385 s-acc 0.9971 l-acc 0.9998 m-acc 0.9985 err 3.3151
+Train [278] Time 628.119 s-acc 0.9975 l-acc 0.9998 m-acc 0.9987 err 3.3128
+Valid [278] Time 34.503 s-acc 0.9974 l-acc 0.9999 m-acc 0.9988 err 3.3118
+Train [279] Time 627.779 s-acc 0.9973 l-acc 0.9998 m-acc 0.9987 err 3.3135
+Valid [279] Time 34.486 s-acc 0.9967 l-acc 0.9998 m-acc 0.9984 err 3.3162
+Train [280] Time 618.718 s-acc 0.9975 l-acc 0.9998 m-acc 0.9987 err 3.3127
+Valid [280] Time 34.224 s-acc 0.9982 l-acc 0.9998 m-acc 0.9991 err 3.3090
+saving model
+Train [281] Time 627.241 s-acc 0.9975 l-acc 0.9998 m-acc 0.9988 err 3.3118
+Valid [281] Time 34.624 s-acc 0.9976 l-acc 0.9998 m-acc 0.9989 err 3.3114
+Train [282] Time 627.651 s-acc 0.9977 l-acc 0.9998 m-acc 0.9989 err 3.3111
+Valid [282] Time 34.204 s-acc 0.9963 l-acc 0.9998 m-acc 0.9984 err 3.3162
+Train [283] Time 628.140 s-acc 0.9978 l-acc 0.9998 m-acc 0.9989 err 3.3109
+Valid [283] Time 34.353 s-acc 0.9983 l-acc 0.9998 m-acc 0.9991 err 3.3091
+saving model
+Train [284] Time 617.807 s-acc 0.9979 l-acc 0.9999 m-acc 0.9989 err 3.3102
+Valid [284] Time 34.599 s-acc 0.9984 l-acc 0.9998 m-acc 0.9991 err 3.3083
+saving model
+Train [285] Time 627.165 s-acc 0.9979 l-acc 0.9999 m-acc 0.9990 err 3.3098
+Valid [285] Time 34.277 s-acc 0.9981 l-acc 0.9999 m-acc 0.9991 err 3.3084
+Train [286] Time 628.313 s-acc 0.9978 l-acc 0.9998 m-acc 0.9989 err 3.3105
+Valid [286] Time 34.287 s-acc 0.9982 l-acc 0.9999 m-acc 0.9991 err 3.3087
+Train [287] Time 619.530 s-acc 0.9981 l-acc 0.9999 m-acc 0.9990 err 3.3088
+Valid [287] Time 34.442 s-acc 0.9985 l-acc 0.9999 m-acc 0.9992 err 3.3069
+saving model
+Train [288] Time 627.579 s-acc 0.9980 l-acc 0.9999 m-acc 0.9990 err 3.3089
+Valid [288] Time 34.561 s-acc 0.9976 l-acc 0.9998 m-acc 0.9987 err 3.3125
+Train [289] Time 626.962 s-acc 0.9980 l-acc 0.9999 m-acc 0.9990 err 3.3092
+Valid [289] Time 34.285 s-acc 0.9987 l-acc 0.9999 m-acc 0.9993 err 3.3060
+saving model
+Train [290] Time 618.442 s-acc 0.9980 l-acc 0.9998 m-acc 0.9990 err 3.3093
+Valid [290] Time 34.549 s-acc 0.9987 l-acc 0.9999 m-acc 0.9993 err 3.3053
+saving model
+Train [291] Time 628.040 s-acc 0.9982 l-acc 0.9999 m-acc 0.9991 err 3.3083
+Valid [291] Time 34.548 s-acc 0.9983 l-acc 0.9998 m-acc 0.9991 err 3.3082
+Train [292] Time 626.692 s-acc 0.9982 l-acc 0.9999 m-acc 0.9991 err 3.3084
+Valid [292] Time 34.460 s-acc 0.9989 l-acc 0.9999 m-acc 0.9994 err 3.3041
+saving model
+Train [293] Time 628.217 s-acc 0.9983 l-acc 0.9999 m-acc 0.9991 err 3.3074
+Valid [293] Time 34.357 s-acc 0.9987 l-acc 0.9999 m-acc 0.9993 err 3.3058
+Train [294] Time 620.128 s-acc 0.9983 l-acc 0.9999 m-acc 0.9991 err 3.3081
+Valid [294] Time 34.421 s-acc 0.9974 l-acc 0.9999 m-acc 0.9987 err 3.3121
+Train [295] Time 627.415 s-acc 0.9982 l-acc 0.9999 m-acc 0.9991 err 3.3074
+Valid [295] Time 34.313 s-acc 0.9989 l-acc 0.9999 m-acc 0.9994 err 3.3043
+Train [296] Time 627.362 s-acc 0.9984 l-acc 0.9999 m-acc 0.9991 err 3.3075
+Valid [296] Time 34.311 s-acc 0.9983 l-acc 0.9999 m-acc 0.9992 err 3.3067
+Train [297] Time 618.552 s-acc 0.9984 l-acc 0.9999 m-acc 0.9992 err 3.3068
+Valid [297] Time 34.536 s-acc 0.9986 l-acc 0.9999 m-acc 0.9993 err 3.3058
+Train [298] Time 627.881 s-acc 0.9984 l-acc 0.9999 m-acc 0.9992 err 3.3069
+Valid [298] Time 34.348 s-acc 0.9986 l-acc 0.9999 m-acc 0.9992 err 3.3065
+Train [299] Time 626.713 s-acc 0.9986 l-acc 0.9999 m-acc 0.9993 err 3.3057
+Valid [299] Time 34.380 s-acc 0.9986 l-acc 0.9999 m-acc 0.9993 err 3.3059
+Train [300] Time 627.799 s-acc 0.9986 l-acc 0.9999 m-acc 0.9993 err 3.3059
+Valid [300] Time 34.273 s-acc 0.9988 l-acc 0.9999 m-acc 0.9993 err 3.3051
+Train [301] Time 620.359 s-acc 0.9987 l-acc 0.9999 m-acc 0.9993 err 3.3051
+Valid [301] Time 34.493 s-acc 0.9988 l-acc 0.9999 m-acc 0.9994 err 3.3049
+Train [302] Time 626.874 s-acc 0.9988 l-acc 0.9999 m-acc 0.9993 err 3.3053
+Valid [302] Time 34.375 s-acc 0.9987 l-acc 0.9999 m-acc 0.9994 err 3.3048
+Train [303] Time 628.836 s-acc 0.9989 l-acc 0.9999 m-acc 0.9994 err 3.3047
+Valid [303] Time 34.497 s-acc 0.9992 l-acc 0.9999 m-acc 0.9995 err 3.3035
+saving model
+Train [304] Time 618.813 s-acc 0.9988 l-acc 0.9999 m-acc 0.9993 err 3.3051
+Valid [304] Time 34.369 s-acc 0.9988 l-acc 0.9999 m-acc 0.9993 err 3.3054
+Train [305] Time 626.874 s-acc 0.9989 l-acc 0.9999 m-acc 0.9994 err 3.3042
+Valid [305] Time 34.313 s-acc 0.9988 l-acc 0.9998 m-acc 0.9993 err 3.3060
+Train [306] Time 626.472 s-acc 0.9990 l-acc 0.9999 m-acc 0.9994 err 3.3039
+Valid [306] Time 34.510 s-acc 0.9987 l-acc 0.9999 m-acc 0.9994 err 3.3045
+Train [307] Time 618.362 s-acc 0.9990 l-acc 0.9999 m-acc 0.9994 err 3.3040
+Valid [307] Time 34.379 s-acc 0.9992 l-acc 0.9999 m-acc 0.9996 err 3.3025
+saving model
+Train [308] Time 626.709 s-acc 0.9991 l-acc 0.9999 m-acc 0.9995 err 3.3029
+Valid [308] Time 34.337 s-acc 0.9992 l-acc 0.9999 m-acc 0.9996 err 3.3024
+saving model
+Train [309] Time 626.008 s-acc 0.9991 l-acc 0.9999 m-acc 0.9995 err 3.3032
+Valid [309] Time 34.358 s-acc 0.9993 l-acc 0.9999 m-acc 0.9996 err 3.3024
+saving model
+Train [310] Time 627.180 s-acc 0.9991 l-acc 0.9999 m-acc 0.9995 err 3.3028
+Valid [310] Time 34.339 s-acc 0.9982 l-acc 0.9999 m-acc 0.9991 err 3.3075
+Train [311] Time 618.137 s-acc 0.9991 l-acc 0.9999 m-acc 0.9995 err 3.3031
+Valid [311] Time 34.315 s-acc 0.9988 l-acc 0.9999 m-acc 0.9993 err 3.3050
+Train [312] Time 627.190 s-acc 0.9992 l-acc 0.9999 m-acc 0.9996 err 3.3023
+Valid [312] Time 34.530 s-acc 0.9994 l-acc 0.9999 m-acc 0.9996 err 3.3014
+saving model
+Train [313] Time 625.520 s-acc 0.9993 l-acc 0.9999 m-acc 0.9996 err 3.3023
+Valid [313] Time 34.360 s-acc 0.9991 l-acc 0.9999 m-acc 0.9995 err 3.3035
+Train [314] Time 616.671 s-acc 0.9992 l-acc 0.9999 m-acc 0.9996 err 3.3022
+Valid [314] Time 34.463 s-acc 0.9992 l-acc 0.9999 m-acc 0.9995 err 3.3029
+Train [315] Time 626.150 s-acc 0.9992 l-acc 0.9999 m-acc 0.9995 err 3.3029
+Valid [315] Time 34.351 s-acc 0.9994 l-acc 0.9999 m-acc 0.9997 err 3.3014
+Train [316] Time 625.508 s-acc 0.9994 l-acc 0.9999 m-acc 0.9996 err 3.3015
+Valid [316] Time 34.284 s-acc 0.9993 l-acc 0.9999 m-acc 0.9996 err 3.3015
+Train [317] Time 626.363 s-acc 0.9993 l-acc 0.9999 m-acc 0.9996 err 3.3016
+Valid [317] Time 34.505 s-acc 0.9994 l-acc 0.9999 m-acc 0.9996 err 3.3014
+Train [318] Time 618.312 s-acc 0.9993 l-acc 0.9999 m-acc 0.9996 err 3.3020
+Valid [318] Time 34.280 s-acc 0.9994 l-acc 0.9999 m-acc 0.9996 err 3.3015
+Train [319] Time 626.808 s-acc 0.9993 l-acc 0.9999 m-acc 0.9996 err 3.3018
+Valid [319] Time 34.264 s-acc 0.9994 l-acc 0.9999 m-acc 0.9996 err 3.3021
+Train [320] Time 627.122 s-acc 0.9993 l-acc 0.9999 m-acc 0.9996 err 3.3020
+Valid [320] Time 34.533 s-acc 0.9994 l-acc 0.9999 m-acc 0.9997 err 3.3014
+Train [321] Time 617.650 s-acc 0.9993 l-acc 0.9999 m-acc 0.9996 err 3.3017
+Valid [321] Time 34.280 s-acc 0.9992 l-acc 0.9999 m-acc 0.9996 err 3.3023
+Train [322] Time 626.617 s-acc 0.9993 l-acc 0.9999 m-acc 0.9996 err 3.3020
+Valid [322] Time 34.313 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3007
+saving model
+Train [323] Time 626.578 s-acc 0.9994 l-acc 0.9999 m-acc 0.9996 err 3.3014
+Valid [323] Time 34.412 s-acc 0.9994 l-acc 0.9999 m-acc 0.9997 err 3.3010
+Train [324] Time 621.066 s-acc 0.9994 l-acc 0.9999 m-acc 0.9996 err 3.3012
+Valid [324] Time 32.386 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3009
+Train [325] Time 626.874 s-acc 0.9994 l-acc 0.9999 m-acc 0.9996 err 3.3013
+Valid [325] Time 34.279 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3007
+saving model
+Train [326] Time 625.973 s-acc 0.9994 l-acc 0.9999 m-acc 0.9997 err 3.3009
+Valid [326] Time 34.302 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3011
+Train [327] Time 626.297 s-acc 0.9994 l-acc 0.9999 m-acc 0.9996 err 3.3012
+Valid [327] Time 34.460 s-acc 0.9994 l-acc 0.9999 m-acc 0.9996 err 3.3019
+Train [328] Time 616.687 s-acc 0.9994 l-acc 0.9999 m-acc 0.9997 err 3.3011
+Valid [328] Time 34.456 s-acc 0.9994 l-acc 0.9999 m-acc 0.9997 err 3.3014
+Train [329] Time 625.986 s-acc 0.9994 l-acc 0.9999 m-acc 0.9996 err 3.3012
+Valid [329] Time 34.358 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3011
+Train [330] Time 626.337 s-acc 0.9994 l-acc 0.9999 m-acc 0.9996 err 3.3012
+Valid [330] Time 34.336 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3007
+Train [331] Time 617.939 s-acc 0.9994 l-acc 0.9999 m-acc 0.9996 err 3.3012
+Valid [331] Time 34.467 s-acc 0.9993 l-acc 0.9999 m-acc 0.9996 err 3.3017
+Train [332] Time 626.328 s-acc 0.9994 l-acc 0.9999 m-acc 0.9996 err 3.3012
+Valid [332] Time 34.648 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3006
+Train [333] Time 626.670 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3005
+Valid [333] Time 34.462 s-acc 0.9991 l-acc 0.9999 m-acc 0.9995 err 3.3026
+Train [334] Time 625.864 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3008
+Valid [334] Time 34.157 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3007
+Train [335] Time 618.809 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3008
+Valid [335] Time 34.428 s-acc 0.9994 l-acc 0.9999 m-acc 0.9997 err 3.3006
+Train [336] Time 627.232 s-acc 0.9994 l-acc 0.9999 m-acc 0.9997 err 3.3011
+Valid [336] Time 34.462 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3003
+Train [337] Time 626.862 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3010
+Valid [337] Time 34.417 s-acc 0.9996 l-acc 0.9999 m-acc 0.9997 err 3.3006
+saving model
+Train [338] Time 618.243 s-acc 0.9995 l-acc 1.0000 m-acc 0.9997 err 3.3003
+Valid [338] Time 34.217 s-acc 0.9994 l-acc 0.9999 m-acc 0.9996 err 3.3013
+Train [339] Time 627.288 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3007
+Valid [339] Time 34.313 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3005
+Train [340] Time 627.553 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3007
+Valid [340] Time 34.321 s-acc 0.9996 l-acc 0.9999 m-acc 0.9997 err 3.3003
+saving model
+Train [341] Time 625.580 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3007
+Valid [341] Time 31.754 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3006
+Train [342] Time 618.063 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3005
+Valid [342] Time 34.386 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3002
+Train [343] Time 627.313 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3003
+Valid [343] Time 34.184 s-acc 0.9996 l-acc 0.9999 m-acc 0.9997 err 3.3004
+Train [344] Time 626.568 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3004
+Valid [344] Time 34.439 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3005
+Train [345] Time 621.002 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3002
+Valid [345] Time 34.511 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3005
+Train [346] Time 627.532 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3004
+Valid [346] Time 34.401 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3011
+Train [347] Time 626.216 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3004
+Valid [347] Time 34.359 s-acc 0.9995 l-acc 1.0000 m-acc 0.9997 err 3.3001
+Train [348] Time 618.411 s-acc 0.9996 l-acc 0.9999 m-acc 0.9997 err 3.2999
+Valid [348] Time 34.332 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3003
+Train [349] Time 626.321 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3002
+Valid [349] Time 34.531 s-acc 0.9996 l-acc 0.9999 m-acc 0.9997 err 3.3002
+Train [350] Time 626.097 s-acc 0.9996 l-acc 1.0000 m-acc 0.9998 err 3.2999
+Valid [350] Time 34.372 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3001
+Train [351] Time 625.599 s-acc 0.9996 l-acc 0.9999 m-acc 0.9997 err 3.3001
+Valid [351] Time 34.277 s-acc 0.9996 l-acc 0.9999 m-acc 0.9997 err 3.3001
+Train [352] Time 619.682 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3003
+Valid [352] Time 34.248 s-acc 0.9996 l-acc 0.9999 m-acc 0.9997 err 3.3003
+Train [353] Time 626.835 s-acc 0.9996 l-acc 0.9999 m-acc 0.9997 err 3.2999
+Valid [353] Time 34.303 s-acc 0.9996 l-acc 0.9999 m-acc 0.9997 err 3.3000
+Train [354] Time 628.136 s-acc 0.9995 l-acc 1.0000 m-acc 0.9997 err 3.3000
+Valid [354] Time 34.357 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3001
+Train [355] Time 618.718 s-acc 0.9996 l-acc 0.9999 m-acc 0.9998 err 3.2997
+Valid [355] Time 34.419 s-acc 0.9996 l-acc 0.9999 m-acc 0.9998 err 3.2996
+Train [356] Time 626.507 s-acc 0.9996 l-acc 0.9999 m-acc 0.9997 err 3.3000
+Valid [356] Time 34.360 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3004
+Train [357] Time 626.041 s-acc 0.9996 l-acc 1.0000 m-acc 0.9998 err 3.2995
+Valid [357] Time 34.234 s-acc 0.9997 l-acc 1.0000 m-acc 0.9998 err 3.2994
+saving model
+Train [358] Time 626.925 s-acc 0.9996 l-acc 0.9999 m-acc 0.9998 err 3.2998
+Valid [358] Time 34.195 s-acc 0.9996 l-acc 0.9999 m-acc 0.9997 err 3.3000
+Train [359] Time 618.065 s-acc 0.9996 l-acc 0.9999 m-acc 0.9997 err 3.3000
+Valid [359] Time 34.424 s-acc 0.9996 l-acc 0.9999 m-acc 0.9997 err 3.2997
+Train [360] Time 626.612 s-acc 0.9996 l-acc 1.0000 m-acc 0.9998 err 3.2997
+Valid [360] Time 34.578 s-acc 0.9996 l-acc 1.0000 m-acc 0.9998 err 3.2996
+Train [361] Time 625.561 s-acc 0.9997 l-acc 1.0000 m-acc 0.9998 err 3.2993
+Valid [361] Time 34.218 s-acc 0.9996 l-acc 0.9999 m-acc 0.9998 err 3.2997
+Train [362] Time 616.480 s-acc 0.9996 l-acc 0.9999 m-acc 0.9998 err 3.2998
+Valid [362] Time 34.389 s-acc 0.9995 l-acc 0.9999 m-acc 0.9997 err 3.3001
+Train [363] Time 624.554 s-acc 0.9997 l-acc 0.9999 m-acc 0.9998 err 3.2994
+Valid [363] Time 34.213 s-acc 0.9996 l-acc 0.9999 m-acc 0.9998 err 3.2996
+Train [364] Time 623.884 s-acc 0.9997 l-acc 1.0000 m-acc 0.9998 err 3.2993
+Valid [364] Time 34.421 s-acc 0.9996 l-acc 0.9999 m-acc 0.9998 err 3.2998
+Train [365] Time 614.817 s-acc 0.9996 l-acc 0.9999 m-acc 0.9998 err 3.2995
+Valid [365] Time 33.983 s-acc 0.9996 l-acc 0.9999 m-acc 0.9998 err 3.2996
+Train [366] Time 624.544 s-acc 0.9996 l-acc 1.0000 m-acc 0.9998 err 3.2995
+Valid [366] Time 34.239 s-acc 0.9996 l-acc 0.9999 m-acc 0.9997 err 3.2998
+Train [367] Time 623.824 s-acc 0.9996 l-acc 1.0000 m-acc 0.9998 err 3.2994
+Valid [367] Time 34.162 s-acc 0.9996 l-acc 0.9999 m-acc 0.9998 err 3.2998
+Train [368] Time 623.756 s-acc 0.9996 l-acc 0.9999 m-acc 0.9998 err 3.2996
+Valid [368] Time 34.170 s-acc 0.9996 l-acc 0.9999 m-acc 0.9998 err 3.2997
+Train [369] Time 616.092 s-acc 0.9996 l-acc 1.0000 m-acc 0.9998 err 3.2995
+Valid [369] Time 34.410 s-acc 0.9996 l-acc 0.9999 m-acc 0.9998 err 3.2997
+Train [370] Time 625.063 s-acc 0.9997 l-acc 1.0000 m-acc 0.9998 err 3.2994
+Valid [370] Time 34.266 s-acc 0.9996 l-acc 0.9999 m-acc 0.9997 err 3.2998
+Train [371] Time 624.018 s-acc 0.9996 l-acc 1.0000 m-acc 0.9998 err 3.2997
+Valid [371] Time 34.040 s-acc 0.9996 l-acc 0.9999 m-acc 0.9997 err 3.2998
+Train [372] Time 616.249 s-acc 0.9996 l-acc 0.9999 m-acc 0.9998 err 3.2998
+Valid [372] Time 34.270 s-acc 0.9996 l-acc 0.9999 m-acc 0.9998 err 3.2997
+Train [373] Time 623.552 s-acc 0.9996 l-acc 1.0000 m-acc 0.9998 err 3.2994
+Valid [373] Time 34.327 s-acc 0.9996 l-acc 1.0000 m-acc 0.9998 err 3.2995
+Train [374] Time 625.666 s-acc 0.9997 l-acc 1.0000 m-acc 0.9998 err 3.2993
+Valid [374] Time 34.517 s-acc 0.9996 l-acc 1.0000 m-acc 0.9998 err 3.2995
+Train [375] Time 629.185 s-acc 0.9996 l-acc 0.9999 m-acc 0.9998 err 3.2999
+Valid [375] Time 34.433 s-acc 0.9996 l-acc 0.9999 m-acc 0.9997 err 3.2999
+Train [376] Time 618.750 s-acc 0.9996 l-acc 1.0000 m-acc 0.9998 err 3.2994
+Valid [376] Time 34.329 s-acc 0.9996 l-acc 0.9999 m-acc 0.9998 err 3.2995
+Train [377] Time 626.843 s-acc 0.9997 l-acc 1.0000 m-acc 0.9998 err 3.2991
+Valid [377] Time 34.305 s-acc 0.9996 l-acc 0.9999 m-acc 0.9998 err 3.2995
+Train [378] Time 625.974 s-acc 0.9997 l-acc 1.0000 m-acc 0.9998 err 3.2993
+Valid [378] Time 34.399 s-acc 0.9996 l-acc 1.0000 m-acc 0.9998 err 3.2994
+Train [379] Time 618.411 s-acc 0.9996 l-acc 1.0000 m-acc 0.9998 err 3.2994
+Valid [379] Time 34.236 s-acc 0.9996 l-acc 1.0000 m-acc 0.9998 err 3.2996
+Train [380] Time 625.808 s-acc 0.9996 l-acc 1.0000 m-acc 0.9998 err 3.2995
+Valid [380] Time 34.574 s-acc 0.9996 l-acc 0.9999 m-acc 0.9998 err 3.2994
+Train [381] Time 626.649 s-acc 0.9996 l-acc 0.9999 m-acc 0.9998 err 3.2995
+Valid [381] Time 34.400 s-acc 0.9996 l-acc 0.9999 m-acc 0.9997 err 3.2997
+Train [382] Time 626.291 s-acc 0.9996 l-acc 1.0000 m-acc 0.9998 err 3.2993
+Valid [382] Time 26.025 s-acc 0.9996 l-acc 1.0000 m-acc 0.9998 err 3.2995
+Train [383] Time 625.815 s-acc 0.9997 l-acc 1.0000 m-acc 0.9998 err 3.2993
+Valid [383] Time 34.516 s-acc 0.9996 l-acc 0.9999 m-acc 0.9998 err 3.2995
+Train [384] Time 626.534 s-acc 0.9996 l-acc 1.0000 m-acc 0.9998 err 3.2995
+Valid [384] Time 34.369 s-acc 0.9996 l-acc 1.0000 m-acc 0.9998 err 3.2995
+Train [385] Time 627.011 s-acc 0.9997 l-acc 1.0000 m-acc 0.9998 err 3.2993
+Valid [385] Time 34.406 s-acc 0.9996 l-acc 0.9999 m-acc 0.9998 err 3.2996
+Train [386] Time 617.855 s-acc 0.9996 l-acc 1.0000 m-acc 0.9998 err 3.2993
+Valid [386] Time 34.300 s-acc 0.9996 l-acc 1.0000 m-acc 0.9998 err 3.2993
+Train [387] Time 625.757 s-acc 0.9997 l-acc 1.0000 m-acc 0.9998 err 3.2994
+Valid [387] Time 34.270 s-acc 0.9996 l-acc 0.9999 m-acc 0.9998 err 3.2995
+Train [388] Time 626.837 s-acc 0.9996 l-acc 1.0000 m-acc 0.9998 err 3.2995
+Valid [388] Time 34.503 s-acc 0.9996 l-acc 1.0000 m-acc 0.9998 err 3.2993
+Train [389] Time 617.932 s-acc 0.9996 l-acc 0.9999 m-acc 0.9998 err 3.2996
+Valid [389] Time 34.409 s-acc 0.9996 l-acc 0.9999 m-acc 0.9997 err 3.2997
+Train [390] Time 626.758 s-acc 0.9997 l-acc 1.0000 m-acc 0.9998 err 3.2988
+Valid [390] Time 34.281 s-acc 0.9996 l-acc 1.0000 m-acc 0.9998 err 3.2993
+Train [391] Time 627.279 s-acc 0.9997 l-acc 1.0000 m-acc 0.9998 err 3.2991
+Valid [391] Time 34.307 s-acc 0.9996 l-acc 0.9999 m-acc 0.9998 err 3.2995
+Train [392] Time 627.201 s-acc 0.9997 l-acc 1.0000 m-acc 0.9998 err 3.2992
+Valid [392] Time 34.430 s-acc 0.9996 l-acc 1.0000 m-acc 0.9998 err 3.2993
+Train [393] Time 618.658 s-acc 0.9997 l-acc 1.0000 m-acc 0.9998 err 3.2990
+Valid [393] Time 34.479 s-acc 0.9996 l-acc 0.9999 m-acc 0.9998 err 3.2997
+Train [394] Time 626.120 s-acc 0.9997 l-acc 1.0000 m-acc 0.9998 err 3.2992
+Valid [394] Time 34.401 s-acc 0.9997 l-acc 0.9999 m-acc 0.9998 err 3.2995
+saving model
+Train [395] Time 626.598 s-acc 0.9997 l-acc 1.0000 m-acc 0.9998 err 3.2991
+Valid [395] Time 34.219 s-acc 0.9996 l-acc 0.9999 m-acc 0.9997 err 3.2997
+Train [396] Time 616.606 s-acc 0.9996 l-acc 0.9999 m-acc 0.9998 err 3.2996
+Valid [396] Time 34.374 s-acc 0.9996 l-acc 0.9999 m-acc 0.9998 err 3.2996
+Train [397] Time 626.077 s-acc 0.9997 l-acc 1.0000 m-acc 0.9998 err 3.2992
+Valid [397] Time 34.543 s-acc 0.9996 l-acc 1.0000 m-acc 0.9998 err 3.2994
+Train [398] Time 625.992 s-acc 0.9997 l-acc 1.0000 m-acc 0.9998 err 3.2993
+Valid [398] Time 34.341 s-acc 0.9996 l-acc 0.9999 m-acc 0.9998 err 3.2995
+Train [399] Time 626.984 s-acc 0.9997 l-acc 1.0000 m-acc 0.9998 err 3.2990
+Valid [399] Time 34.263 s-acc 0.9996 l-acc 1.0000 m-acc 0.9998 err 3.2993
+Train [400] Time 616.754 s-acc 0.9997 l-acc 1.0000 m-acc 0.9998 err 3.2989
+Valid [400] Time 34.217 s-acc 0.9997 l-acc 0.9999 m-acc 0.9998 err 3.2992
+saving model

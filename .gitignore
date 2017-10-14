@@ -1,0 +1,14 @@
+# folders
+checkpoints
+logs
+old_exps
+.idea
+
+# lua
+model.lstm.double.lua
+model.lstmv2.double.lua
+test.alpha.lua
+test.double.lua
+train.alpha.lua
+train.double.lua
+train.lstm.lua
