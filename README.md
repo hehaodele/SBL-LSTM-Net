@@ -2,7 +2,7 @@
 
 This is the original implementation of the deep nerual network model proposed in our paper, "From Bayesian Sparsity to Gated Recurrent Nets"[[Paper]](https://arxiv.org/abs/1706.02815).
 
-If you use this code useful in your research, please cite:
+If you find this code useful in your research, please cite:
 
     @article{he2017bayesian,
       title={From Bayesian Sparsity to Gated Recurrent Nets},
